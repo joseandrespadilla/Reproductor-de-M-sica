@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0.2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    outline: none;
+    list-style: none;
+    font-size: 16pt;
+  }
+  
+  body {
+    display: flex;
+    background-color: rgb(20, 31, 43);
+  }
+  
+  .left-page {
+    color: #f1f1f1;
+    position: sticky;
+    top: 0;
+    width: 40%;
+    left: 0;
+  }
+  
+  .left-page .current-song img{
+    width: 100%;
+    border-radius: 50px;
+  }
+  
+  .right-page {
+    width: 60%;
+  }
+  .right-page .track-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+  }
+  .right-page .track-list .song {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4pt;
+    /* padding: 1em; */
+    border-radius: 100px;
+    color: rgb(20, 31, 43);
+  }
+  .right-page .track-list .song img {
+    border-radius: 100px;
+  }
+  .right-page .track-list .song ul {
+    width: 100%;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4pt;
+  }
