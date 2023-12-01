@@ -6,6 +6,7 @@
     outline: none;
     list-style: none;
     font-size: 16pt;
+    padding: 4px;
   }
   
   body {
@@ -16,25 +17,74 @@
   .left-page {
     color: #f1f1f1;
     position: sticky;
-    top: 0;
+    top: 10;
     width: 40%;
-    left: 0;
+    left: 2%;
   }
-  
+
+ .input{
+    border-radius: 100px;
+  }
   .left-page .current-song img{
-    width: 100%;
+    width: 80%;
     border-radius: 50px;
   }
+
+.btn1 {
+  background-color: rgb(70, 48, 129);
+  color: #f1f1f1;
+  border-radius: 100px;
+  padding: 14px 46px;
+  display: flex;
+  font-size: 22px;
+}
+
+.btn2 {
+  background-color: rgb(70, 48, 129);
+  color: #f1f1f1;
+  border-radius: 100px;
+  padding: 14px 36px;
+  display: flex;
+  font-size: 22px;
+}
+
+.btn3 {
+  background-color: rgb(70, 48, 129);
+  color: #f1f1f1;
+  border-radius: 100px;
+  padding: 14px 36px;
+  display: flex;
+  font-size: 22px;
+}
+
+.btn4 {
+  background-color: rgb(70, 48, 129);
+  color: #f1f1f1;
+  border-radius: 100px;
+  padding: 14px 36px;
+  display: flex;
+  font-size: 22px;
+}
   
   .right-page {
-    width: 60%;
+    position: sticky;
+    top: 10;
+    left: 2%;
+    width: 60%; 
+    color: rgb(20, 31, 43);
   }
+
+  .search-input {
+  border-radius: 100px;
+   width: 98%;   
+  }
+
   .right-page .track-list {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-  
+    width: 98%; 
   }
+
   .right-page .track-list .song {
     width: 100%;
     display: flex;
@@ -42,11 +92,12 @@
     gap: 4pt;
     /* padding: 1em; */
     border-radius: 100px;
-    color: rgb(20, 31, 43);
   }
+
   .right-page .track-list .song img {
     border-radius: 100px;
   }
+  
   .right-page .track-list .song ul {
     width: 100%;
     padding-right: 100px;
